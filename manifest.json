@@ -1,0 +1,12 @@
+{
+    "name":"MyBlocker",
+    "version":"1.12",
+    "description":"A simple blocker for my website.",
+    "permissions": ["webRequest","webRequestBlocking","<all_urls>"],
+    "background":{
+        "scripts":["./myBlocker.js"]
+    },
+    "icons":{
+    },
+    "manifest_version":2
+}
